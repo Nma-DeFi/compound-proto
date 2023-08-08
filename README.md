@@ -1,3 +1,3 @@
-# compound-proto
+# Compound Proto
 
 Compound UI prototype
