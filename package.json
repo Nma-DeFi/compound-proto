@@ -4,8 +4,14 @@
   "description": "Compound UI prototype",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-compile": "node-sass --include-path node_modules --output-style compressed css -o css"
   },
   "author": "Nma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "bootstrap-icons": "^1.10.5",
+    "node-sass": "^9.0.0"
+  }
 }
