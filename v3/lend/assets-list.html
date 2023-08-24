@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Template</title>
+    <link href="../../css/template.css" rel="stylesheet">
+    <link href="../../node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  </head>
+  <body class="bg-body-tertiary">
+
+    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../../image/compound-logo.svg" alt="Compound" width="180">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav d-flex d-lg-none">
+                    <li class="nav-item"><a class="nav-link" href="#">Borrow</a></li>
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Lend</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+                </ul>
+                <div class="btn-group shadow-sm ms-auto" role="group">
+                    <button type="button" class="btn btn-outline-primary">Compound II</button>
+                    <button type="button" class="btn btn-primary text-white" aria-current="page">Compound III</button>
+                </div>
+                <div class="d-none d-lg-block ms-2">
+                    <button class="btn btn-outline-primary shadow-sm" type="button"><i class="bi bi-wallet me-1"></i> Connect wallet</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div id="sidebar-container" class="col-lg-2 d-none d-lg-block bg-white shadow">
+                <div id="sidebar-inner" class="d-flex flex-column p-3 pt-5">
+                    <button id="network-select" type="button" class="btn btn-light btn-lg border shadow-sm">
+                        <div class="d-flex">
+                            <img class="icon d-none d-xl-inline" src="../../image/Ethereum.svg" alt="network">
+                            <div class="flex-grow-1">Ethereum</div>
+                            <div class="chevron"><i class="bi bi-chevron-down"></i></div>
+                        </div>
+                    </button>
+                    <hr class="my-4 text-primary">
+                    <ul class="nav nav-pills flex-column mb-auto">
+                        <li class="nav-item"><a class="nav-link" href="#/"><i class="bi bi-box-arrow-down me-1"></i> Borrow</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#/lend"><i class="bi bi-stars me-1"></i> Lend</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#/dashboard"><i class="bi bi-list-task me-1"></i> Dashboard</a></li>
+                    </ul>
+                    <hr class="text-primary">
+                    <div id="compound-links" class="d-flex justify-content-around fs-4">
+                        <a href="#"><i class="bi bi-github"></i></a>
+                        <a href="#"><i class="bi bi-discord"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-medium"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-10 ms-lg-auto p-5">
+                <h2 class="mb-4">Assets to lend</h2> 
+                <div class="row">
+                    <div class="col-12 col-lg-7">
+                        <div class="row text-body-tertiary px-3 mb-2">
+                            <div class="col text-start">
+                              Asset
+                            </div>
+                            <div class="col text-center">
+                              Total deposits
+                            </div>
+                            <div class="col text-end">
+                              APR
+                            </div>
+                        </div>
+                        <div class="row align-items-center p-3 mb-3 bg-body rounded shadow-sm">
+                            <div class="col">
+                                <div class="d-flex justify-content-start">
+                                    <img src="../../image/assets/USDC.svg" alt="USDC" width="40">
+                                    <div class="ps-2">
+                                        <div>USDC</div>
+                                        <small>USD Coin</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div>731.86M</div>
+                                <small>$731.86M</small>
+                            </div>
+                            <div class="col text-end">
+                              7.12% <i class="bi bi-info-square"></i>
+                            </div>
+                        </div>
+                        <div class="row align-items-center p-3 mb-3 bg-body rounded shadow-sm">
+                            <div class="col">
+                                <div class="d-flex justify-content-start">
+                                    <img src="../../image/assets/ETH.svg" alt="ETH" width="40">
+                                    <div class="ps-2">
+                                        <div>ETH</div>
+                                        <small>Ether</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div>32,357.30</div>
+                                <small>$23.65M</small>
+                            </div>
+                            <div class="col text-end">
+                              2.17% <i class="bi bi-info-square"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
