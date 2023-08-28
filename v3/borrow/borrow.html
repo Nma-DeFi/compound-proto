@@ -19,8 +19,10 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex d-lg-none">
-                    <li class="nav-item"><a class="nav-link" href="#">Borrow</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Lend</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Borrow</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Lend</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
                 </ul>
                 <div class="btn-group shadow-sm ms-auto" role="group">
@@ -47,9 +49,9 @@
                     </button>
                     <hr class="my-4 text-primary">
                     <ul class="nav nav-pills flex-column mb-auto">
-                        <li class="nav-item"><a class="nav-link" href="#/"><i class="bi bi-box-arrow-down me-1"></i> Borrow</a></li>
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#/lend"><i class="bi bi-stars me-1"></i> Lend</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#/claim"><i class="bi bi-suit-heart me-1"></i> Claim</a></li>
+                        <li class="nav-item"><a aria-current="page" class="nav-link invest active" href="#/"><i class="bi bi-box-arrow-down me-1"></i> Borrow</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#/farm"><i class="bi bi-flower2 me-1"></i> Farm</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#/claim"><i class="bi bi-stars me-1"></i> Claim</a></li>
                         <li class="nav-item"><a class="nav-link" href="#/dashboard"><i class="bi bi-list-task me-1"></i> Dashboard</a></li>
                     </ul>
                     <hr class="text-primary">
@@ -62,66 +64,16 @@
                 </div>
             </div>
             <div class="col-12 col-lg-10 ms-lg-auto p-5">
-
                 <div class="row">
                     <div class="col-12 col-lg-8 col-xxl-6">
                         <div class="bg-body p-3 rounded shadow mb-4">
-                            <h2 class="mb-4">Assets to lend</h2> 
-                            <div class="row">
-                                <div class="col">
-                                    <div class="row text-body-tertiary px-3 mb-2">
-                                        <div class="col text-start">
-                                          Asset
-                                        </div>
-                                        <div class="col text-center">
-                                          Total deposits
-                                        </div>
-                                        <div class="col text-end">
-                                          APR
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row align-items-center p-3 mx-2 mb-3 rounded border border-light-subtle">
-                                <div class="col">
-                                    <div class="d-flex justify-content-start">
-                                        <img src="../../image/assets/USDC.svg" alt="USDC" width="40">
-                                        <div class="ps-2">
-                                            <div>USDC</div>
-                                            <small>USD Coin</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col text-center">
-                                    <div>731.86M</div>
-                                    <small>$731.86M</small>
-                                </div>
-                                <div class="col text-end">
-                                  7.12% <i class="bi bi-info-square"></i>
-                                </div>
-                            </div>
-                            <div class="row align-items-center p-3 mx-2 mb-3 rounded border border-light-subtle">
-                                <div class="col">
-                                    <div class="d-flex justify-content-start">
-                                        <img src="../../image/assets/ETH.svg" alt="ETH" width="40">
-                                        <div class="ps-2">
-                                            <div>ETH</div>
-                                            <small>Ether</small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col text-center">
-                                    <div>32,357.30</div>
-                                    <small>$23.65M</small>
-                                </div>
-                                <div class="col text-end">
-                                  2.17% <i class="bi bi-info-square"></i>
-                                </div>
+                            <h2 class="mb-4">Borrow</h2>
+                            <div class="d-flex border p-4 rounded">
+                                0
                             </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
