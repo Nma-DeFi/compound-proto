@@ -65,65 +65,34 @@
             </div>
             <div class="col-12 col-lg-10 ms-lg-auto p-5">
                 <div class="row">
-                    <div class="col-12 col-lg-5">
+                    <div class="col-12 col-lg-7 col-xxl-6">
                         <div class="bg-body p-3 rounded shadow mb-4">
-                            <div class="d-flex align-items-center mb-4">
-                                <h2 class="me-auto">Select asset</h2>
-                                <button type="button" class="btn-close" aria-label="Close"></button>
-                            </div>
-
-                            <div class="mb-2">
-
-                                <div class="bg-body-tertiary rounded p-3">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div class="d-flex justify-content-start">
-                                            <img src="../../image/assets/USDC.svg" alt="USDC" width="40">
-                                            <div class="ps-2">
-                                                <div>USDC</div>
-                                                <small class="text-body-tertiary">USD Coin</small>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div>Borrow APR</div> 
-                                            <div class="text-body-tertiary text-center">7.39%</div>
-                                        </div>
-                                    </div>
-
-                                    <div class="text-center small">
-                                        <div class="text-body-secondary mb-1">Collaterals</div>
-                                        <div class="text-body-tertiary">
-                                            WBTC <strong class="px-1">·</strong> ETH <strong class="px-1">·</strong> COMP <strong class="px-1">·</strong> UNI <strong class="px-1">·</strong> LINK
-                                        </div>
-                                    </div>
+                            <h2 class="mb-4">Borrow</h2>
+                            <div class="d-flex border align-items-center p-3 rounded mb-2">
+                                <div class="flex-grow-1">
+                                    <h1 class="m-0">0</h1>
+                                    <small  class="text-body-tertiary">$0.00</small>
                                 </div>
-
-                                <div class="border-bottom border-light-subtle my-4"></div>
-
-                                <div  class="bg-body-tertiary rounded p-3">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <div class="d-flex justify-content-start">
-                                            <img src="../../image/assets/ETH.svg" alt="ETH" width="40">
-                                            <div class="ps-2">
-                                                <div>ETH</div>
-                                                <small class="text-body-tertiary">Ether</small>
-                                            </div>
-                                        </div>
-                                        <div>
-                                            <div>Borrow APR</div> 
-                                            <div class="text-body-tertiary text-center">7.39%</div>
-                                        </div>
+                                <button type="button" class="btn btn-lg btn-light border border-light-subtle rounded-4">
+                                    <div class="d-flex align-items-center">
+                                        <img src="../../image/assets/USDC.svg" alt="USDC" width="40"> 
+                                        <span class="px-3">USDC</span> 
+                                        <i class="bi bi-chevron-down"></i>
                                     </div>
-
-                                    <div class="text-center small">
-                                        <div class="text-body-secondary mb-1">Collaterals</div> 
-                                        <div class="text-body-tertiary">
-                                            wstETH <strong class="px-1">·</strong> cbETH
-                                        </div>
-                                    </div>
-                                </div>
-
+                                </button>
                             </div>
-
+                            <div class="d-flex flex-wrap justify-content-between mb-4">
+                                <div>
+                                    <div class="mb-1">Emprunt maximal : <span class="text-body-tertiary">800 USDC</span></div>
+                                    <a href="#" class="text-decoration-none">Augmenter votre capacité d'emprunt <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                                <div class="d-flex align-items-start">
+                                    <small class="px-2 py-1 me-1 border rounded">Borrow APR : <span class="text-body-tertiary">4.12%</span></small>
+                                </div>
+                            </div>
+                            <div class="d-grid">
+                                <button class="btn btn-lg btn-primary text-white" type="button">Borrow USDC</button>
+                              </div>
                         </div>
                     </div>
                 </div>
