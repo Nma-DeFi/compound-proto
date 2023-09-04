@@ -66,33 +66,64 @@
             <div class="col-12 col-lg-10 ms-lg-auto p-5">
                 <div class="row">
                     <div class="col-12 col-lg-7 col-xxl-6">
-                        <div class="bg-body p-3 rounded shadow mb-4">
-                            <h2 class="mb-4">Borrow</h2>
-                            <div class="d-flex border p-3 rounded mb-2">
-                                <div class="flex-grow-1">
-                                    <h1 class="m-0">0</h1>
-                                    <small  class="text-body-tertiary">$0.00</small>
-                                </div>
-                                <button type="button" class="btn btn-lg btn-light my-1 rounded-4">
-                                    <div class="d-flex align-items-center">
-                                        <img src="../../image/assets/USDC.svg" alt="USDC" width="40"> 
-                                        <span class="px-3">USDC</span> 
-                                        <i class="bi bi-chevron-down"></i>
+                        <div class="bg-body p-4 pt-3 rounded shadow">
+                            <div class="d-flex align-items-center">
+                                <h2 class="mb-1 me-auto">Collateral</h2>
+                                <button type="button" class="btn-close" aria-label="Close"></button>
+                            </div>
+                            <div class="text-body-tertiary fs-5 mb-4">ETH Market</div>
+
+                            <div class="shadow rounded p-3 mb-4">
+                                <div class="d-flex justify-content-between align-items-start mb-4">
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="../../image/assets/wstETH.svg" alt="USDC" width="48">
+                                        <div style="padding-left: 0.7rem;">
+                                            <div class="fs-5 fw-medium">wstETH</div>
+                                            <div class="fs-6 text-body-secondary">Lido wrapped staked ether</div>
+                                        </div>
                                     </div>
-                                </button>
-                            </div>
-                            <div class="d-flex flex-wrap justify-content-between mb-4">
-                                <div>
-                                    <div class="mb-1">Emprunt maximal : <span class="text-body-tertiary">800 USDC</span></div>
-                                    <a href="#" class="text-decoration-none">Augmenter votre capacité d'emprunt <i class="bi bi-arrow-right"></i></a>
+                                    <div class="text-center">
+                                        <div class="fw-medium">Your balance</div> 
+                                        <div class="text-body-secondary">2.657</div>
+                                        <div class="text-body-tertiary" style="font-size: 75%;">$3.40K</div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <button type="button" class="btn btn-primary text-white btn-sm mb-2">Deposit</button>
+                                        <button type="button" class="btn btn-primary text-white btn-sm">Withdraw</button>
+                                    </div>
                                 </div>
-                                <div class="d-flex align-items-start">
-                                    <small class="bg-body-tertiary px-2 py-1 me-1 border rounded">Borrow APR : <span class="text-body-tertiary">4.12%</span></small>
+                                <div class="d-flex text-body-secondary text-center small">
+                                    <div class="flex-fill border-end p-2">Loan to value : <span class="opacity-75">80%</span></div>
+                                    <div class="flex-fill border-end p-2">Liquidation threshold : <span class="opacity-75">85%</span></div>
+                                    <div class="flex-fill p-2">Liquidation penalty : <span class="opacity-75">10%</span></div>
                                 </div>
                             </div>
-                            <div class="d-grid">
-                                <button class="btn btn-lg btn-primary text-white" type="button">Borrow USDC</button>
-                              </div>
+
+                            <div class="shadow rounded p-3">
+                                <div class="d-flex justify-content-between align-items-center mb-3">
+                                    <div class="d-flex align-items-center justify-content-start">
+                                        <img src="../../image/assets/cbETH.svg" alt="USDC" width="40">
+                                        <div class="ps-2">
+                                            <div>cbETH</div>
+                                            <small class="text-body-tertiary">Coinbase wrapped staked ether</small>
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div>Your balance</div> 
+                                        <div class="text-body-tertiary">0 <small class="opacity-75 ps-2">($0)</small></div>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <button type="button" class="btn btn-primary text-white btn-sm mb-2">Deposit</button>
+                                        <button type="button" class="btn btn-primary text-white btn-sm">Withdraw</button>
+                                    </div>
+                                </div>
+                                <div class="d-flex text-body-secondary text-center small">
+                                    <div class="flex-fill border-end p-2">Loan to value : <span class="opacity-75">80%</span></div>
+                                    <div class="flex-fill border-end p-2">Liquidation threshold : <span class="opacity-75">85%</span></div>
+                                    <div class="flex-fill p-2">Liquidation penalty : <span class="opacity-75">10%</span></div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
