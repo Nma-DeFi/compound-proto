@@ -63,6 +63,8 @@ $theme-colors: map-merge($theme-colors, $custom-colors);*/
 $sidebar-pt: 90px;
 $sidebar-font-size: $font-size-base * 1.075;
 
+body { overflow-y: scroll; }
+
 #sidebar-container {
     position: fixed; 
     top: 0; 
