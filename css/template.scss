@@ -88,3 +88,6 @@ body { overflow-y: scroll; }
         }
     }
 }
+
+/* CLAIM */
+#claim-accordion .accordion-button::after { margin-left: inherit; }

@@ -64,50 +64,35 @@
             </div>
             <div class="col-12 col-lg-10 ms-lg-auto p-5">
                 <div class="row">
-                    <div class="col-12 col-lg-5">
-                        <div class="card shadow">
-                            <div class="card-header">
-                              <ul class="nav nav-tabs card-header-tabs">
-                                <li class="nav-item">
-                                  <a class="nav-link fw-semibold active" aria-current="true" href="#">Supply USDC</a>
-                                </li>
-                                <li class="nav-item me-auto">
-                                  <a class="nav-link" href="#">Withdraw USDC</a>
-                                </li>
-                                <li class="nav-item align-self-center">
-                                    <button type="button" class="btn-close" aria-label="Close"></button>
-                                </li>
-                              </ul>
+                    <div class="col-12 col-lg-7 col-xxl-6">
+                        <div class="bg-body p-3 rounded shadow">
+                            <h2 class="mb-4">Borrow</h2>
+                            <div class="d-flex border align-items-center p-3 rounded mb-2">
+                                <div class="flex-grow-1">
+                                    <h1 class="m-0">0</h1>
+                                    <small  class="text-body-tertiary">$0.00</small>
+                                </div>
+                                <button type="button" class="btn btn-lg btn-light border border-light-subtle rounded-4">
+                                    <div class="d-flex align-items-center">
+                                        <img src="../../image/assets/USDC.svg" alt="USDC" width="40"> 
+                                        <span class="px-3">USDC</span> 
+                                        <i class="bi bi-chevron-down"></i>
+                                    </div>
+                                </button>
                             </div>
-                            <div class="card-body">
-                                <div class="d-flex border p-3 rounded mb-2">
-                                    <div class="flex-grow-1">
-                                        <h1 class="m-0">0</h1>
-                                        <small class="text-body-tertiary">$0.00</small>
-                                    </div>
-                                    <div>
-                                        <button type="button" class="btn btn-light border border-light-subtle rounded-4 mb-2">
-                                            <div class="d-flex align-items-center">
-                                                <img src="../../image/assets/USDC.svg" alt="USDC" width="30"> 
-                                                <span class="px-3">USDC</span> 
-                                            </div>
-                                        </button>
-                                        <div class="text-center text-body-secondary small">Wallet : <span class="text-body-tertiary">$1.43K</span></div>
-                                    </div>
+                            <div class="d-flex flex-wrap justify-content-between mb-4">
+                                <div>
+                                    <div class="mb-1">Emprunt maximal : <span class="text-body-tertiary">800 USDC</span></div>
+                                    <a href="#" class="text-decoration-none">Augmenter votre capacité d'emprunt <i class="bi bi-arrow-right"></i></a>
                                 </div>
-                                <div class="row g-2 mb-4">
-                                    <div class="col"><button type="button" class="btn btn-light btn-sm text-secondary w-100">25%</button></div>
-                                    <div class="col"><button type="button" class="btn btn-light btn-sm text-secondary w-100">50%</button></div>
-                                    <div class="col"><button type="button" class="btn btn-light btn-sm text-secondary w-100">75%</button></div>
-                                    <div class="col"><button type="button" class="btn btn-light btn-sm text-secondary w-100">Max</button></div>
-                                </div>
-    
-                                <div class="d-grid">
-                                    <button class="btn btn-lg btn-primary text-white" type="button">Supply</button>
+                                <div class="d-flex align-items-start">
+                                    <small class="px-2 py-1 me-1 border rounded">Borrow APR : <span class="text-body-tertiary">4.12%</span></small>
                                 </div>
                             </div>
+                            <div class="d-grid">
+                                <button class="btn btn-lg btn-primary text-white" type="button">Borrow USDC</button>
+                              </div>
                         </div>
-
                     </div>
                 </div>
             </div>
