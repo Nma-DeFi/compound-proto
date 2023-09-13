@@ -89,5 +89,13 @@ body { overflow-y: scroll; }
     }
 }
 
+/* FARM */
+.asset-item {
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
+    }
+}
+
 /* CLAIM */
 #claim-accordion .accordion-button::after { margin-left: inherit; }
