@@ -22,8 +22,8 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Borrow</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="#">Lend</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Farm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Claim</a></li>
                 </ul>
                 <div class="btn-group shadow-sm ms-auto" role="group">
                     <button type="button" class="btn btn-outline-primary">Compound II</button>
@@ -52,7 +52,6 @@
                         <li class="nav-item"><a aria-current="page" class="nav-link invest active" href="#/"><i class="bi bi-box-arrow-down me-1"></i> Borrow</a></li>
                         <li class="nav-item"><a class="nav-link" href="#/farm"><i class="bi bi-flower2 me-1"></i> Farm</a></li>
                         <li class="nav-item"><a class="nav-link" href="#/claim"><i class="bi bi-stars me-1"></i> Claim</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#/dashboard"><i class="bi bi-list-task me-1"></i> Dashboard</a></li>
                     </ul>
                     <hr class="text-primary">
                     <div id="compound-links" class="d-flex justify-content-around fs-4">
@@ -66,53 +65,62 @@
             <div class="col-12 col-lg-10 ms-lg-auto p-5">
                 <div class="row">
                     <div class="col-12 col-lg-5">
-                        <div class="bg-body p-4 rounded shadow mb-4">
+                        <div class="bg-body bg-opacity-75 p-4 border rounded shadow">
                             <div class="d-flex align-items-center mb-4">
-                                <h2 class="me-auto">Select asset</h2>
+                                <h2 class="me-auto">Borrow asset</h2>
                                 <button type="button" class="btn-close" aria-label="Close"></button>
                             </div>
 
                             <div class="mb-2">
 
-                                <div class="shadow rounded p-3 mb-4">
+                                <div class="bg-body shadow rounded p-3 mb-4 item-hover">
                                     <div class="d-flex justify-content-between align-items-center mb-3">
                                         <div class="d-flex justify-content-start">
                                             <img src="../../image/assets/USDC.svg" alt="USDC" width="40">
                                             <div class="ps-2">
                                                 <div>USDC</div>
-                                                <small class="text-body-tertiary">USD Coin</small>
+                                                <small class="text-body-secondary">USD Coin</small>
                                             </div>
                                         </div>
                                         <div>
-                                            <div>Borrow APR</div> 
-                                            <div class="text-body-tertiary text-center">7.39%</div>
+                                            <div class="text-body-secondary">Borrow APR</div> 
+                                            <div class="text-body-tertiary text-center">7.39<small>%</small></div>
                                         </div>
                                     </div>
 
-                                    <div class="d-flex justify-content-center align-items-center text-body-secondary small">
-                                        <div class="me-1">Collaterals</div> 
-                                        <div  class="text-body-tertiary" style="padding-top: 3px;"><i class="bi bi-caret-down-fill"></i></div>
+                                    <div class="d-flex justify-content-center align-items-center small">
+                                        <div class="me-1  text-body-secondary">Collaterals</div> 
+                                        <div class="d-flex flex-wrap text-body-tertiary py-1" style="font-size: 90%;">
+                                            <div  class="border-end px-2">LINK</div>
+                                            <div  class="border-end px-2">COMP</div>
+                                            <div  class="border-end px-2">ETH</div>
+                                            <div  class="border-end px-2">UNI</div>
+                                            <div  class="px-2">WBTC</div>
+                                        </div>
                                     </div>
                                 </div>
 
-                                <div  class="shadow rounded p-3">
+                                <div class="bg-body shadow rounded p-3 item-hover">
                                     <div class="d-flex justify-content-between align-items-center mb-3">
                                         <div class="d-flex justify-content-start">
-                                            <img src="../../image/assets/ETH.svg" alt="ETH" width="40">
+                                            <img src="../../image/assets/ETH.svg" alt="USDC" width="40">
                                             <div class="ps-2">
                                                 <div>ETH</div>
-                                                <small class="text-body-tertiary">Ether</small>
+                                                <small class="text-body-secondary">Ether</small>
                                             </div>
                                         </div>
                                         <div>
-                                            <div>Borrow APR</div> 
-                                            <div class="text-body-tertiary text-center">7.39%</div>
+                                            <div class="text-body-secondary">Borrow APR</div> 
+                                            <div class="text-body-tertiary text-center">3.40<small>%</small></div>
                                         </div>
                                     </div>
 
-                                    <div class="d-flex justify-content-center align-items-center text-body-secondary small">
-                                        <div class="me-1">Collaterals</div> 
-                                        <div class="text-body-tertiary" style="padding-top: 3px;"><i class="bi bi-caret-down-fill"></i></div>
+                                    <div class="d-flex justify-content-center align-items-center small">
+                                        <div class="me-1  text-body-secondary">Collaterals</div> 
+                                        <div class="d-flex flex-wrap text-body-tertiary py-1" style="font-size: 90%;">
+                                            <div  class="border-end px-2">cbETH</div>
+                                            <div  class="px-2">wstETH</div>
+                                        </div>
                                     </div>
                                 </div>
 

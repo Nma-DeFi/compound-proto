@@ -89,12 +89,22 @@ body { overflow-y: scroll; }
     }
 }
 
-/* FARM */
-.asset-item {
+/* Mixins */
+@mixin item-hover() {
     cursor: pointer;
     &:hover {
         background-color: rgba(var(--bs-primary-rgb), 0.1) !important;
     }
+}
+
+/* Utilities */
+.item-hover {
+    @include item-hover();
+}
+
+/* FARM */
+.asset-item {
+    @include item-hover();
 }
 
 /* CLAIM */
