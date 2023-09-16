@@ -9,7 +9,7 @@
   </head>
   <body class="bg-body-tertiary">
 
-    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-3">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom shadow-sm py-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../../image/compound-logo.svg" alt="Compound" width="180">
@@ -19,16 +19,37 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav d-flex d-lg-none">
-                    <li class="nav-item"><a class="nav-link" href="#">Borrow</a></li>
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Farm</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Borrow</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#">Farm</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Claim</a></li>
                 </ul>
-                <div class="btn-group shadow-sm ms-auto" role="group">
+                <div class="d-flex mx-auto text-center">
+                <div class="px-4">
+                    <div class="fw-semibold">Collateral</div> 
+                    <div class="text-body-secondary">$3.12K</div>
+                </div>
+                <div class="px-4">
+                    <div class="fw-semibold">Borrowing</div> 
+                    <div class="text-body-secondary">$1.78K</div>
+                </div>
+                <div class="px-4">
+                    <div class="fw-semibold">Farming</div> 
+                    <div class="text-body-secondary">$2.78K</div>
+                </div>
+                <div class="px-4">
+                    <div class="fw-semibold text-primary">Rewards</div> 
+                    <div class="">12.898 <span class="" style="font-size: 75%">COMP</span></div>
+                </div>
+                </div>
+                <div class="btn-group shadow-sm" role="group">
                     <button type="button" class="btn btn-outline-primary">Compound II</button>
                     <button type="button" class="btn btn-primary text-white" aria-current="page">Compound III</button>
                 </div>
-                <div class="d-none d-lg-block ms-2">
-                    <button class="btn btn-outline-primary shadow-sm" type="button"><i class="bi bi-wallet me-1"></i> Connect wallet</button>
+                <div class="d-none d-lg-block ms-4">
+                    <button class="btn btn-primary text-white shadow-sm" type="button"><i class="bi bi-wallet me-1"></i> 0x23....46ac</button>
+                    <button class="btn btn-primary text-white shadow-sm" type="button"><i class="bi bi-power"></i></button>
                 </div>
             </div>
         </div>
@@ -38,7 +59,7 @@
         <div class="row">
             <div id="sidebar-container" class="col-lg-2 d-none d-lg-block bg-white shadow">
                 <div id="sidebar-inner" class="d-flex flex-column p-3 pt-5">
-                    <button id="network-select" type="button" class="btn btn-light btn-lg border shadow-sm">
+                    <button id="network-select" type="button" class="btn btn-light btn-lg border border-end shadow-sm">
                         <div class="d-flex">
                             <img class="icon d-none d-xl-inline" src="../../image/Ethereum.svg" alt="network">
                             <div class="flex-grow-1">Ethereum</div>
@@ -63,7 +84,7 @@
             <div class="col-12 col-lg-10 ms-lg-auto p-5">               
                 <div class="row">
                     <div class="col-12 col-lg-9">
-                        <div class="d-flex align-items-center p-3 bg-body border rounded shadow mb-4">
+                        <div class="d-flex align-items-center p-4 bg-body border rounded shadow mb-5">
                             <h2 class="m-0">Farm</h2> 
                             <div class="fs-5 text-body-tertiary ms-auto pe-2">Deposit your assets and earn fees</div>
                         </div>

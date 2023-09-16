@@ -9,7 +9,7 @@
   </head>
   <body class="bg-body-tertiary">
 
-    <nav class="navbar navbar-expand-lg sticky-top bg-white shadow-sm py-3">
+    <nav class="navbar navbar-expand-lg sticky-top bg-white border-bottom shadow-sm py-3">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../image/compound-logo.svg" alt="Compound" width="180">
@@ -25,23 +25,22 @@
                     <li class="nav-item"><a class="nav-link" href="#">Farm</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Claim</a></li>
                 </ul>
-                <div class="d-flex mx-auto text-center">
-                <div class="px-4">
-                    <div class="fw-semibold">Borrowing</div> 
-                    <div class="text-body-secondary">$1.78K</div>
-                </div>
-                <div class="px-4">
-                    <div class="fw-semibold">Farming</div> 
-                    <div class="text-body-secondary">$2.78K</div>
-                </div>
-                <div class="px-4">
-                    <div class="fw-semibold">Net APR</div> 
-                    <div class="text-body-secondary">4.56%</div>
-                </div>
-                <div class="px-4">
-                    <div class="fw-semibold text-primary">Rewards</div> 
-                    <div class="">12.898 <span class="" style="font-size: 75%">COMP</span></div>
-                </div>
+                <div class="d-flex justify-content-center align-items-center mx-auto">
+                    <button id="network-select" type="button" class="btn btn-light btn-lg border shadow-sm mx-4">
+                        <div class="d-flex align-items-center ">
+                            <img class="icon d-none d-xl-inline" src="../image/Ethereum.svg" alt="network">
+                            <div class="px-1">Ethereum</div>
+                            <div class="chevron"><i class="bi bi-chevron-down"></i></div>
+                        </div>
+                    </button>
+                    <div class="px-3 text-center">
+                        <div class="fw-semibold">Total borrowing</div> 
+                        <div class="text-body-secondary">$239M</div>
+                    </div>
+                    <div class="px-3 text-center">
+                        <div class="fw-semibold">Total farming</div> 
+                        <div class="text-body-secondary">$320M</div>
+                    </div>
                 </div>
                 <div class="btn-group shadow-sm" role="group">
                     <button type="button" class="btn btn-outline-primary">Compound II</button>
@@ -57,16 +56,8 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div id="sidebar-container" class="col-lg-2 d-none d-lg-block bg-white shadow">
+            <div id="sidebar-container" class="col-lg-2 d-none d-lg-block bg-white border-end shadow">
                 <div id="sidebar-inner" class="d-flex flex-column p-3 pt-5">
-                    <button id="network-select" type="button" class="btn btn-light btn-lg border shadow-sm">
-                        <div class="d-flex">
-                            <img class="icon d-none d-xl-inline" src="../image/Ethereum.svg" alt="network">
-                            <div class="flex-grow-1">Ethereum</div>
-                            <div class="chevron"><i class="bi bi-chevron-down"></i></div>
-                        </div>
-                    </button>
-                    <hr class="my-4 text-primary">
                     <ul class="nav nav-pills flex-column mb-auto">
                         <li class="nav-item"><a aria-current="page" class="nav-link invest active" href="#/"><i class="bi bi-box-arrow-down me-1"></i> Borrow</a></li>
                         <li class="nav-item"><a class="nav-link" href="#/farm"><i class="bi bi-flower2 me-1"></i> Farm</a></li>

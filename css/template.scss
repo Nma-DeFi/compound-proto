@@ -65,6 +65,11 @@ $sidebar-font-size: $font-size-base * 1.075;
 
 body { overflow-y: scroll; }
 
+#network-select {
+    .icon { width: 1.8rem; height: 1.8rem; }
+    .chevron { width: 1.8rem; }
+}
+
 #sidebar-container {
     position: fixed; 
     top: 0; 
@@ -74,10 +79,6 @@ body { overflow-y: scroll; }
 
     > #sidebar-inner {
         height: calc(100vh - #{$sidebar-pt});
-        > #network-select {
-            .icon { width: 1.8rem; height: 1.8rem; }
-            .chevron { width: 1.8rem; }
-        }
         > .nav-pills {
             --bs-nav-link-color: #{shade-color($primary, 15%)}; 
             --bs-nav-link-hover-color: #{$black};
