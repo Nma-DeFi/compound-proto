@@ -103,6 +103,10 @@ body { overflow-y: scroll; }
     @include item-hover();
 }
 
+.color-primary-shaded {
+    color: shade-color($primary, 5%) !important;
+}
+
 /* FARM */
 .asset-item {
     @include item-hover();
