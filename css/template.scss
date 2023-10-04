@@ -90,6 +90,16 @@ body { overflow-y: scroll; }
     }
 }
 
+.sticky-top-menu {
+    position: sticky; 
+    top: 8.2rem;
+}
+
+.sticky-top-menu2 {
+    position: sticky; 
+    top: 8.4rem;
+}
+
 /* Mixins */
 @mixin item-hover() {
     cursor: pointer;
